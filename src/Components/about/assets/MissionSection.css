@@ -1,0 +1,11 @@
+.mission-section {
+  margin-top: 80px;
+}
+.mission-section .header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+.mission-section p.mission-detail {
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+}

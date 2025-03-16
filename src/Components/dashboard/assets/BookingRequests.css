@@ -1,0 +1,37 @@
+.action-btn {
+  display: flex;
+  gap: 15px;
+  padding: 20px 0;
+}
+
+.action-btn .accept {
+  border-radius: 0;
+  height: 38px;
+  padding: 0 25px !important;
+  margin-left: 4px;
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+}
+.action-btn .reject {
+  border: 1px solid red;
+  border-radius: 0;
+  height: 38px;
+  padding: 0 25px !important;
+  margin-left: 4px;
+  background-color: #fff;
+  color: #000;
+  opacity: 0.7;
+}
+.class-info {
+  display: flex;
+  gap: 15px;
+}
+.class-info .value {
+  opacity: 0.7;
+}
+h4.user-name {
+  font-weight: 400;
+}
+h4.user-name .user {
+  font-weight: 600;
+}

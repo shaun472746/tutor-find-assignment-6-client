@@ -1,0 +1,78 @@
+.find-tutor {
+  overflow: hidden;
+}
+
+.find-tutor .default-left-padding {
+  margin-top: 80px;
+  display: flex;
+}
+
+.find-tutor .default-right-padding {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  height: 75%;
+}
+
+.find-tutor .default-right-padding h3.header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+  line-height: var(--heading-line-height);
+}
+.find-tutor .default-right-padding p.hero-description {
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+}
+.find-tutor .hero-action-btn {
+  display: flex;
+  gap: 8px;
+}
+.find-tutor .hero-action-btn button {
+  border-radius: 0px;
+  height: var(--input-btn-height);
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+  width: 60%;
+}
+.find-tutor .left-section-padding {
+  padding-left: 128px;
+  display: flex !important;
+  justify-content: center !important;
+}
+.find-tutor .right-section-padding {
+  padding-right: 128px;
+}
+@media (max-width: 767px) {
+  .find-tutor .left-section-padding {
+    padding: 0 64px;
+  }
+  .find-tutor .right-section-padding {
+    padding: 0 64px;
+    display: flex !important;
+    justify-content: center !important;
+  }
+  .find-tutor .tutor-row {
+    display: flex !important;
+    flex-direction: column-reverse !important;
+  }
+  .find-tutor .hero-action-btn {
+    justify-content: center;
+  }
+  .find-tutor .default-right-padding h3.header {
+    text-align: center;
+  }
+  .find-tutor .default-right-padding p.hero-description {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  .find-tutor .left-section-padding {
+    padding: 15px;
+  }
+  .find-tutor .right-section-padding {
+    padding: 15px;
+  }
+}

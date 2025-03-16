@@ -1,0 +1,86 @@
+.hero-section {
+  overflow: hidden;
+}
+.hero-section .default-left-padding {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.hero-section .default-left-padding h3.header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+  line-height: var(--heading-line-height);
+}
+.hero-section .default-left-padding p.hero-description {
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+}
+.hero-section .default-left-padding .hero-search {
+  width: 80%;
+}
+.hero-section .default-left-padding .hero-search input {
+  border-radius: 0;
+  height: var(--input-btn-height);
+}
+.hero-section .default-left-padding .hero-search button {
+  border-radius: 0;
+  height: 38px;
+  padding: 0 25px !important;
+  margin-left: 4px;
+  background-color: var(--primary-nav-btn-color);
+}
+.hero-section .default-left-padding .hero-search button:hover svg {
+  color: #4096ff;
+}
+.hero-section .default-left-padding .hero-search svg {
+  color: #fff;
+}
+.hero-section .default-right-padding {
+  margin-top: 80px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100%;
+}
+
+.hero-section .hero-action-btn {
+  display: flex;
+  gap: 8px;
+}
+.hero-section .hero-action-btn button {
+  border-radius: 0px;
+  height: var(--input-btn-height);
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+}
+.hero-section .left-section-padding {
+  padding-left: 128px;
+}
+.hero-section .right-section-padding {
+  padding-right: 128px;
+}
+@media (max-width: 767px) {
+  .hero-section .left-section-padding {
+    padding: 0 64px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .hero-section .right-section-padding {
+    padding-right: 0 64px !important;
+    display: flex !important;
+    justify-content: center !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-section .left-section-padding {
+    padding: 15px !important;
+  }
+
+  .hero-section .right-section-padding {
+    padding-right: 15px !important;
+  }
+}

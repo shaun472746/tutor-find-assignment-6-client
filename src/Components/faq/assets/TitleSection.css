@@ -1,0 +1,16 @@
+.title-section {
+  margin: 80px 0;
+}
+.title-section .title-icon {
+  font-size: 12px;
+  color: #0353a4;
+}
+.title-section .title-line {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+.title-section .title-description {
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+  opacity: 0.7;
+}

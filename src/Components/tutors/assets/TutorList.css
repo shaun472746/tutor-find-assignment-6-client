@@ -1,0 +1,110 @@
+.tutor-section {
+  margin: 80px 0;
+}
+.tutor-section .team-image {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 7px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.tutor-section .header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+
+.tutor-section .heading-info .sub-header {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.tutor-section .personal-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 14px 38px 3px rgba(0, 0, 0, 0.14);
+  padding: 25px 0;
+}
+.tutor-section .personal-detail button {
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+  width: 80%;
+}
+.tutor-section .personal-detail button > * {
+  font-size: 12px;
+}
+.tutor-section .personal-detail .designation {
+  font-size: 14px;
+  color: #33415c;
+  white-space: nowrap; /* Prevents text from breaking into multiple lines */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Adds "..." when text overflows */
+  width: 150px; /* Adjust based on your layout */
+  cursor: pointer;
+}
+.tutor-section .personal-detail .bio-summary {
+  font-size: 12px;
+  opacity: 0.9;
+  text-align: center;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.tutor-section .tutor-header-info {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.tutor-section .tutor-header-info .title-description .expert-in {
+  opacity: 0.7;
+}
+.tutor-section .teaching-detail {
+  margin-top: 25px;
+}
+.tutor-section .teaching-detail > * {
+  font-family: var(--font-roboto), sans-serif;
+}
+.tutor-section .teaching-detail .tutor-info {
+  display: flex;
+  gap: 15px;
+}
+.tutor-section .teaching-detail Button {
+  margin-top: 25px !important;
+  width: 200px;
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+}
+.tutor-section .teaching-detail .tutor-info .info-title {
+  font-weight: 600;
+  flex-basis: 15%;
+  text-align: end;
+}
+
+.previous-page-link {
+  margin-top: 15px;
+  font-size: 18px;
+  color: var(--nav-info-background);
+}
+.previous-page-link:hover {
+  color: black;
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.tutor-error-msg {
+  color: red;
+  margin-top: 15px;
+}
+.book-tutor-detail .dashboard-update-btn {
+  border-radius: 0px;
+  margin-top: 10px;
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+  width: 100%;
+}

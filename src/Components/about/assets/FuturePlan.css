@@ -1,0 +1,27 @@
+.plan-section {
+  margin-top: 80px;
+}
+.plan-section .description-font {
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+}
+.plan-section .plan-title {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+.plan-section .plan-description {
+  margin-top: 20px;
+}
+
+.plan-section .plan-subheader {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  opacity: 0.9;
+}
+.plan-section .plan-detail {
+  margin-top: 10px;
+}
+.plan-section .plan-detail:last-child {
+  margin-bottom: 80px;
+}

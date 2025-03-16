@@ -1,0 +1,29 @@
+.sidebar-section .search-header {
+  font-size: 20px;
+  font-weight: 700 !important;
+  padding: 15px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.sidebar-section .filter-area .filter-title {
+  font-weight: 600;
+  padding-top: 10px;
+}
+.sidebar-section .filter-area .filter-list {
+  padding-bottom: 10px;
+}
+.sidebar-section .filter-area .range-slider {
+  display: flex;
+  gap: 5px;
+}
+.sidebar-section .filter-area .range-slider .slider-component {
+  width: 80%;
+}
+
+.sidebar-section .filter-action-btn button {
+  border-radius: 0px;
+  height: var(--input-btn-height);
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+  margin-bottom: 20px;
+}

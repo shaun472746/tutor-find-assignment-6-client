@@ -1,0 +1,10 @@
+.acceptance-table .ant-table-content .ant-table-cell,
+.acceptance-table .ant-table-content .ant-table-cell p {
+  font-family: var(--font-roboto), sans-serif;
+}
+.payment-button {
+  width: 100px;
+}
+.payment-button > * {
+  font-size: 12px;
+}

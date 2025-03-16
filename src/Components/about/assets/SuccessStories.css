@@ -1,0 +1,59 @@
+.success-section {
+  margin-top: 80px;
+}
+.success-section .featured-story {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.success-section .story-detail {
+  background-color: rgba(151, 157, 172, 0.15);
+  min-height: 160px;
+  font-family: var(--font-roboto), sans-serif;
+  line-height: var(--description-line-height);
+  padding: 25px 15px 25px 45px;
+  position: relative;
+}
+.success-section .story-detail .description {
+  opacity: 0.7;
+}
+.success-section .story-detail .story-comma {
+  position: absolute;
+  top: 12px;
+  left: 5px;
+}
+
+.success-section .story-teller-section {
+  display: flex;
+  justify-content: center;
+}
+
+.success-section .story-teller-section .story-teller {
+  margin-top: 20px;
+
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 7px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+
+/* next arrow */
+.success-section
+  :where(.css-dev-only-do-not-override-1v613y0).ant-carousel
+  .slick-prev::after,
+.success-section
+  :where(.css-dev-only-do-not-override-1v613y0).ant-carousel
+  .slick-next::after {
+  box-sizing: border-box;
+  position: absolute;
+  top: 2.3431457505076203px;
+  inset-inline-start: 2.3431457505076203px;
+  display: inline-block;
+  width: 15.31370849898476px;
+  height: 15.31370849898476px;
+  border: 0 solid #000;
+  border-inline-width: 6px 0;
+  border-block-width: 6px 0;
+  border-radius: 1px;
+  content: '';
+}

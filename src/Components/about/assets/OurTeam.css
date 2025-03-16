@@ -1,0 +1,37 @@
+.team-section {
+  margin-top: 80px;
+}
+.team-section .team-image {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  padding: 7px;
+  border-radius: 50%;
+  object-fit: fill;
+}
+.team-section .header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+
+.team-section .heading-info .sub-header {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.6;
+}
+.team-section .personal-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  box-shadow: 0 14px 38px 3px rgba(0, 0, 0, 0.14);
+  padding: 25px 0;
+}
+.team-section .personal-detail .designation {
+  font-size: 14px;
+  color: #33415c;
+}
+.team-section .personal-detail .bio-summary {
+  font-size: 14px;
+  opacity: 0.9;
+  text-align: center;
+}

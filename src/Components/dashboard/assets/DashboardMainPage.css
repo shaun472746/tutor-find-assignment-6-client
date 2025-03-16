@@ -1,0 +1,86 @@
+.dashboard-section {
+  margin: 60px 0;
+  box-shadow: 0 14px 38px 3px rgba(0, 0, 0, 0.14);
+  padding: 0 20px;
+  height: calc(100% - 120px);
+}
+.dashboard-section .heading-info {
+  display: flex;
+  padding: 8px 0;
+  justify-content: space-between;
+  align-items: center;
+}
+.dashboard-section .heading-info .edit-icon {
+  background-color: rgba(151, 157, 172, 0.1);
+  padding: 15px;
+  border: 2px solid rgba(151, 157, 172, 0.25);
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+}
+.dashboard-section .heading-info .edit-icon:hover {
+  background-color: rgba(151, 157, 172, 0.25);
+  cursor: pointer;
+}
+.dashboard-section .heading-info button div {
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.dashboard-section .header {
+  font-size: var(--heading-font-size);
+  font-weight: bold;
+}
+
+.dashboard-section .heading-info .sub-header {
+  font-size: 18px;
+  font-weight: 700;
+  opacity: 0.6;
+  font-family: var(--font-roboto), sans-serif;
+}
+
+.dashboard-section .avatar-uploader {
+  margin-top: 20px;
+}
+.dashboard-section .personal-data-photo {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard-section .personal-data-photo .personal-detail {
+  line-height: 30px;
+  padding: 15px 0;
+  width: 75%;
+}
+
+.dashboard-update-btn {
+  border-radius: 0px;
+  height: var(--input-btn-height);
+  background-color: var(--primary-nav-btn-color);
+  color: #fff;
+  margin-bottom: 20px;
+  margin: 0;
+  width: 100%;
+}
+.dashboard-section .personal-detail .notification-message {
+  background-color: rgba(151, 157, 172, 0.25);
+  padding: 15px;
+  font-family: var(--font-roboto), sans-serif;
+  margin-bottom: 10px;
+  color: var(--nav-info-background);
+  border: 2px solid rgba(151, 157, 172, 0.25);
+}
+.dashboard-section .personal-detail .personal-info {
+  display: flex;
+}
+.dashboard-section .personal-detail .personal-info .info-title {
+  flex-basis: 30%;
+  text-align: end;
+  padding-right: 15px;
+  font-family: var(--font-roboto), sans-serif;
+}
+.dashboard-section .personal-detail .personal-info .info-value {
+  font-family: var(--font-roboto), sans-serif;
+  opacity: 0.7;
+  flex-basis: 70%;
+}
